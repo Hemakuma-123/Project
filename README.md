@@ -18,3 +18,31 @@ The project closely follows the design, functionality, and interactivity guideli
 - Back button on Upgrade Plan page for easier navigation.
 
 ---
+# Project View
+/project-folder
+  ├── index.html
+  ├── upgrade.html
+  ├── styles.css
+  └── script.js
+  |__Readme.md
+
+📦 Tech Stack
+HTML5
+CSS3 (Flexbox & Media Queries)
+JavaScript
+
+
+📌 Assignment Requirements Checklist
+ Matched exact Figma layout.
+ Fully responsive on all devices.
+ Hover effects added on all cards and buttons.
+ Navigation implemented.
+ Mobile usability ensured.
+ Clean code structu
+
+📞 Support
+For help or questions about this project, contact:
+👤 Sanapathi Hemakumar
+📧 hemakumarh17@gmail.com
+🔗https://www.linkedin.com/in/hema-kumar-72a322277/
+
