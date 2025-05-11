@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subscription Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>ClothesInventory</h2>
+    <ul>
+      <li class="active">Dashboard</li>
+      <li>Inventory</li>
+      <li>Reports</li>
+      <li>About</li>
+    </ul>
+    <div class="user">
+      <p>Alex Morgan</p>
+      <span>Manager</span>
+    </div>
+  </div>
+  <div class="main-content">
+    <header>
+      <h1>Your Subscription Plan</h1>
+      <a href="upgrade.html" class="button">Upgrade Plan</a>
+    </header>
+    <section class="subscription">
+      <h2>Current Subscription</h2>
+      <div class="card highlight">
+        <h3>Pro Plan</h3>
+        <p>Start: Jan 1, 2024 · Renews: Feb 1, 2024</p>
+        <p>$49/month</p>
+      </div>
+      <ul>
+        <li>Unlimited Projects</li>
+        <li>5 Team Members</li>
+        <li>API Access</li>
+        <li>Priority Support</li>
+      </ul>
+      <p class="usage">API Calls: 8,200 / 10,000<br/>Credits Remaining: 1,800</p>
+    </section>
+
+    <section class="pricing">
+      <h2>Pricing Plans</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Basic</h3>
+          <p>$19/month</p>
+          <p>1,000 Credits<br/>1 User<br/>Email Support<br/>2 Integrations</p>
+          <button>Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p>$49/month</p>
+          <p>10,000 Credits<br/>5 Users<br/>Priority Support<br/>10 Integrations</p>
+          <button>Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Unlimited</h3>
+          <p>$99/month</p>
+          <p>Unlimited Credits<br/>Unlimited Users<br/>24/7 Support<br/>All Integrations</p>
+          <button>Choose Plan</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="warning">
+      <h2>Subscription Stop</h2>
+      <div class="card warning-card">
+        <h3>Warning</h3>
+        <p>Stopping your subscription will remove all credits and access.</p>
+        <button class="danger">Stop Subscription</button>
+      </div>
+    </section>
+
+    <section class="preferences">
+      <h2>Subscription Preferences</h2>
+      <p>Payment Method: Card</p>
+      <div class="actions">
+        <button>Billing History</button>
+        <button>Download Invoices</button>
+      </div>
+      <label>
+        <input type="checkbox" />
+        Auto-Renew
+      </label>
+    </section>
+
+    <section class="support">
+      <h2>Support</h2>
+      <p>Need Help? Contact Support</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

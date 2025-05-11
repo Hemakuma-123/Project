@@ -1,0 +1,128 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: #f3f3ff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.sidebar ul li.active, .sidebar ul li:hover {
+  background-color: #d9d9f3;
+}
+
+.user {
+  font-size: 14px;
+  color: #444;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 40px;
+  overflow-y: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  background: #6a5acd;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px 0;
+}
+
+.card {
+  background: #f5f5ff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card button {
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card.current {
+  border: 2px solid #6a5acd;
+}
+
+.card .disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.warning-card {
+  background-color: #fff0f0;
+  border-left: 6px solid red;
+}
+
+.danger {
+  background: red;
+  color: white;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
